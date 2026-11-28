@@ -28,3 +28,6 @@ jobs:
       
       - name: Construir imagen Docker
         run: docker build -t mi-aplicacion .
+
+      - name: Ejecutar contenedor Docker
+        run: docker run --rm mi-aplicacion
